@@ -1,4 +1,3 @@
-import './styles/App.scss'
 import React from 'react'
 import { ErrorBoundary } from 'react-error-boundary'
 import { AppHeader } from './AppHeader'
