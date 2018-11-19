@@ -1,9 +1,9 @@
-const ItemsController = require(`${
+const EventsController = require(`${
   sails.config.appPath
-}/api/controllers/ItemsController.js`)
+}/api/controllers/EventsController.js`)
 
 module.exports = {
   generate() {
-    ItemsController.initialize()
+    EventsController.initialize()
   },
 }

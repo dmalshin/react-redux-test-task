@@ -12,11 +12,7 @@ module.exports.routes = {
   '/': {
     view: 'pages/homepage',
   },
-  'GET    /api/items': 'ItemsController.findAll',
-  'GET    /api/items/:id': 'ItemsController.find',
-  'POST   /api/items': 'ItemsController.create',
-  'PUT    /api/items/:id': 'ItemsController.update',
-  'DELETE /api/items/:id': 'ItemsController.delete',
-
-  'GET    /api/custom': 'ItemsController.custom',
+  'GET    /api/events': 'EventsController.findAll',
+  'POST   /api/events': 'EventsController.create',
+  'DELETE /api/events/:id': 'EventsController.delete',
 }

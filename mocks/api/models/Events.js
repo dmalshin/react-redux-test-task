@@ -1,6 +1,6 @@
 module.exports = {
   primaryKey: 'id',
-  identity: 'Items',
+  identity: 'Events',
   attributes: {
     id: {
       type: 'string',
@@ -9,9 +9,15 @@ module.exports = {
     },
     name: {
       type: 'string',
+      required: true,
     },
-    description: {
+    date: {
       type: 'string',
+      required: true,
+    },
+    city: {
+      type: 'string',
+      required: true,
     },
   },
 }
