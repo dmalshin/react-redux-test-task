@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux'
 import { reducer as formReducer } from 'redux-form'
-import { itemsReducer } from './itemsReducer'
+import { eventsReducer } from './eventsReducer'
 import { routerReducer } from './routerReducer'
 
 export const rootReducer = combineReducers({
   router: routerReducer,
-  items: itemsReducer,
+  events: eventsReducer,
   form: formReducer,
 })

@@ -1,7 +1,7 @@
 import { all } from 'redux-saga/effects'
 import { navigationSaga } from './navigationSaga'
-import { itemsSaga } from './itemsSaga'
+import { eventsSaga } from './eventsSaga'
 
 export function* rootSaga() {
-  yield all([navigationSaga(), itemsSaga()])
+  yield all([navigationSaga(), eventsSaga()])
 }

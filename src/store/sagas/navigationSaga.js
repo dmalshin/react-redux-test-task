@@ -1,9 +1,9 @@
 import { takeLatest, call } from 'redux-saga/effects'
-import { itemsNavigationSaga } from './itemsSaga'
+import { eventsNavigationSaga } from './eventsSaga'
 
 // prettier-ignore
 const SAGA_FOR_ROUTE = {
-  '/'     : itemsNavigationSaga,
+  '/'     : eventsNavigationSaga,
 };
 
 export function* handleNavigation(action) {
